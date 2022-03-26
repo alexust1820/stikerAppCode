@@ -1,0 +1,13 @@
+@import url("../../assets/styles/color.module.css");
+@import url("../../assets/styles/animation.module.css");
+@import url("../../assets/styles/fonts.module.css");
+
+.footer {
+    font-family: ManropeText;
+    font-size: 20px;
+    line-height: 32px;
+    opacity: 50%;
+    margin-bottom: 24px;
+    text-align: center;
+    color: var(--c-black-blue);
+}

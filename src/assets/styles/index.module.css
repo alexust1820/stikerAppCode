@@ -1,0 +1,40 @@
+@import url("../styles/color.module.css");
+@import url("../styles/animation.module.css");
+
+body, div, span, h1, h2, h3, h4, h5, h6, p, a, button, img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1432px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+body {
+    overflow-x: hidden;
+    animation: bodyBgColor 5s linear forwards;
+    animation-delay: 4s;
+    background-color: var(--c-white);
+}
+
+@keyframes bodyBgColor {
+    from {
+        background-color: var(--c-white);
+    }
+
+    to {
+        background-color: var(--c-body-bg);
+    }
+}

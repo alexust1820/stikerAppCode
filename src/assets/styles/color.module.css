@@ -1,0 +1,23 @@
+:root {
+    --c-white: white;
+    --c-black-blue: #1A1E33;
+    --c-brand: #2250E5;
+    --c-brand-hover: #406DFF;
+    --c-transparent-hover: #EBEEFC;
+    --c-body-bg: rgba(245, 246, 252, 0.95);
+    --c-cyan: #197F81;
+    --c-orange: #FF6A1A;
+    --c-pink: #DB5AB5;
+    --c-pacific-blue: #0088CC;
+    --c-pantone: #FFC267;
+    --c-purple-light: #CFAFF9;
+    --c-vanilla: #FFE9B6;
+    --c-brown: #C9886C;
+    --c-tech-wave: #537C9C;
+    --c-twisted-blue: #7AC1D1;
+    --c-creole: #3B3128;
+    --c-neon-purple: #B61AFF;
+    --c-stone: #C4C4C4;
+    --c-blue-sparkle: #007AFE;
+    --c-green-elliott: #00BF63;
+}
